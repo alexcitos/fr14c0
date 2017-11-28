@@ -1,0 +1,1 @@
+[06-Apr-2016 08:15:01 CST6CDT] PHP Fatal error:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/friaco/public_html/Connections/intranet.php on line 9

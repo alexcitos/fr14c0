@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.transition {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img .text {
+	font-size: 90%;
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .img {
+  -webkit-transform: 0px -30px 0.5;
+  -moz-transform: 0px -30px 0.5;
+  -o-transform: 0px -30px 0.5;
+  -ms-transform: 0px -30px 0.5;
+  transform: 0px -30px 0.5;
+  transform: translate(0px, -30px) scale(0.5);
+  -webkit-transform: translate(0px, -30px) scale(0.5);
+  -moz-transform: translate(0px, -30px) scale(0.5);
+  -o-transform: translate(0px, -30px) scale(0.5);
+  -ms-transform: translate(0px, -30px) scale(0.5);
+  border-radius: 50%;
+}
+.div-img:hover .text {
+  -webkit-transform: 0px 0px 2;
+  -moz-transform: 0px 0px 2;
+  -o-transform: 0px 0px 2;
+  -ms-transform: 0px 0px 2;
+  transform: 0px 0px 2;
+  transform: translate(0px, 0px) scale(2);
+  -webkit-transform: translate(0px, 0px) scale(2);
+  -moz-transform: translate(0px, 0px) scale(2);
+  -o-transform: translate(0px, 0px) scale(2);
+  -ms-transform: translate(0px, 0px) scale(2);
+}
+#espacio{
+	width:800px;
+	
+	height:400px;
+	display:block;
+	margin: 0px auto 0px auto;}
+#agrupado{
+	width:200px;
+	
+	float:left;
+	clear:right;
+	
+	}
+</style>
+</head>
+
+<body>
+<div id="espacio">
+<div id="agrupado">
+<div class="container">  <div class="div-img" >    <a href="servicios/servicio.php?id=3&n=Cerdo%20en%20Pie" target="_parent"><img class="img" src="images/iconos_friaco_cerdoenpie.jpg" title="Foto10" alt="Foto10"></a>    <div class="text">Cerdo en pie</div>  </div></div>
+</div>
+<div id="agrupado">
+<div class="container">  <div class="div-img" >   <a href="servicios/servicio.php?id=7&n=Inyección" target="_parent"> <img class="img" src="images/imagen5.png" title="Foto10" alt="Foto10"> </a>   <div class="text">Inyección</div>  </div></div>
+</div>
+<div id="agrupado">
+<div class="container">  <div class="div-img" >   <a href="servicios/servicio.php?id=4&n=Obrador" target="_parent"> <img class="img" src="images/iconos_friaco_obrador.jpg" title="Foto10" alt="Foto10"> </a>   <div class="text">Obrador</div>  </div></div>
+</div>
+<div id="agrupado">
+<div class="container">  <div class="div-img" > <a href="servicios/servicio.php?id=1&n=Frigorifico" target="_parent">   <img class="img" src="images/imagen6.png" title="Foto10" alt="Foto10">  </a>  <div class="text">Frigorífico</div>  </div></div>
+</div>
+<div id="agrupado">
+<div class="container">  <div class="div-img" > <a href="servicios/importaciones.php" target="_parent"> <a href="#">  <img class="img" src="images/imagen3.png" title="Foto10" alt="Foto10">  </a>  <div class="text">Importaciones</div>  </div></div>
+</div>
+<div id="agrupado">
+<div class="container">  <div class="div-img" > <a href="servicios/servicio.php?id=8&n=Ahumados" target="_parent">   <img class="img" src="images/iconos_friaco_ahumados.jpg" title="Foto10" alt="Foto10">  </a>  <div class="text">Ahumados</div>  </div></div>
+</div>
+<div id="agrupado">
+<div class="container">  <div class="div-img" >  <a href="http://grupofriaco.com.mx/servicios/index.php?id=6&n=Descombre" target="_parent">  <img class="img" src="images/imagen4.png" title="Foto10" alt="Foto10"> </a>   <div class="text">Descombe</div>  </div></div>
+</div>
+<div id="agrupado">
+<div class="container">  <div class="div-img" >  <a href="servicios/transporte.php" target="_parent">  <img class="img" src="images/imagen8.png" title="Foto10" alt="Foto10"> </a>   <div class="text">Transporte</div>  </div></div>
+</div>
+</div>
+</body>
+</html>
